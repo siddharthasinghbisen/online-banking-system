@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>signup</title>
+        <link rel="stylesheet" type="text/css" href="signupmem.css">
+
+</head>
+<body>
+ 
+<form action="memberbuyerinfoinsert.py" style="border:1px solid #ccc">
+  <div class="container">
+    <h1>Submit your information here! As buyer</h1>
+    <p>We can help you from the information taken from the form.</p>
+    <hr>
+
+
+     <label for="Company"><b>Company Nme</b></label>
+    <input type="text" placeholder="Enter your Company/organization Name" name="urcname" required>
+
+    <label for="quantity"><b>Buyer(quantity to buy),seller(quantity to sell)</b></label>
+    <input type="text" placeholder="Enter your quantity of purchase/sell" name="quantity" required>
+
+    <label for="investment"><b>Your organization investment($).buyer(amount to invest for quantity),seller(selling price for given quantity)</b></label>
+    <input type="text" placeholder="investment value. eg.10,000kr" name="investment" required>
+
+    <label for="psw"><b>Previous buisnsses done in lng field(if not any leave as 0)</b></label>
+    <input type="text" placeholder="Enter company Name" name="cname" required>
+    <input type="text" placeholder="Enter total amount invested" name="amntinvested" required>
+    <input type="text" placeholder="Enter total number of years" name="years" required>
+    
+
+    
+  
+    <div class="clearfix">
+      <button type="button"  id="cnclbtn" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Submit</button>
+    </div>
+  </div>
+</form>
+ <script type="text/javascript">
+    document.getElementById("cnclbtn").onclick = function () {
+        location.href = "http://localhost/DSS/homemem.html#";
+    };
+</script>
+
+</body>
+</html>

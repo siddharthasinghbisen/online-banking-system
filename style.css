@@ -1,0 +1,326 @@
+/*go lng font*/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+/*btn style*/
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+}
+ 
+body {
+      font-family: "Helvetica Neue",sans-serif;
+      font-weight: lighter;
+}
+/*navigation bar*/
+header {
+      width: 100%;
+      height: 100vh;
+      background: url(background.jpg) no-repeat 50% 50%; 
+      background-size: cover;
+      padding-top: 1px;
+}
+ 
+.content {
+      width: 94%;
+      margin: 4em auto;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: justify;
+}
+ 
+.logo {
+      line-height: 60px;
+      position: fixed;
+      float: left;
+      margin: 16px 46px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 20px;
+      letter-spacing: 2px;
+}
+ 
+nav {
+      position: fixed;
+      width: 100%;
+      line-height: 60px;
+
+}
+ 
+nav ul {
+      line-height: 60px;
+      list-style: none;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: 1s;
+}
+ 
+nav.black ul {
+      background: #000;
+}
+ 
+nav ul li {
+      display: inline-block;
+      padding: 16px 40px;;
+}
+ 
+nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+}
+ 
+.menu-icon {
+      line-height: 60px;
+      width: 100%;
+      background: #000;
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: #fff;
+      display: none;
+}
+ 
+@media(max-width: 786px) {
+ 
+      .logo {
+            position: fixed;
+            top: 0;
+            margin-top: 16px;
+      }
+ 
+      nav ul {
+            max-height: 0px;
+            background: #000;
+      }
+ 
+      nav.black ul {
+            background: #000;
+      }
+ 
+      .showing {
+            max-height: 34em;
+      }
+ 
+      nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 24px;
+            text-align: center;
+      }
+ 
+      .menu-icon {
+            display: block;
+      }
+ 
+}
+.golng {
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+
+}
+.golng h3{
+		font-family: 'Raleway', sans-serif;
+	color: #F9F3F4;
+	text-shadow: 0px 0px 300px #000;
+	font-size: 500%;
+	padding-top: 25%; 
+	
+
+}
+.golng h1{
+		font-family: 'Raleway', sans-serif;
+	color: #F9F3F4;
+	text-shadow: 0px 0px 300px #000;
+	font-size: 500%;
+	padding-top: 25%; 
+
+}
+.btn{
+	border-radius: 9px;
+	font-family: 'Oswald', sans-serif;
+	color:   #FFFFFF;
+	font-size: 135%;
+	padding: 10px 20px;
+	border: solid #FCEA1C 3px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.btn:hover{
+	color: #ff2121;
+	border: solid #ff2121 3px;
+}
+/*screen size decreases-> decrease in size of font and btn*/
+@media screen and (max-width: 768px){
+	.golng h1 {
+		font-size: 250%;
+	}
+	.btn {
+		font-size: 110%;
+		padding: 7px 15px;
+
+	}
+}
+/*laydown screen login btn for user and member*/
+.usermember{
+	padding-top: 15%;
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: linear-gradient(to right,  #545252 0%,#545252 50%,#C2BDBD 50%,#C2BDBD 100%);
+	/*display: table;*/
+	top: 0;
+	background-size: cover;
+	padding-bottom: 15%;
+}
+.usermember.usermemberdesign{
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+}
+.spacebtn{
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+.spacebtn h4{
+	font-family: 'Raleway', sans-serif;
+	color: #F9F3F4;
+	text-shadow: 0px 0px 300px #000;
+	font-size: 500%;
+	padding-top: 25%; 
+}
+/*CHECK*/
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 10%;
+    border-radius: 15%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,45 @@
+.content:before {
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+
+  display: block;
+  background-image: url('hero.jpg');
+  background-size:cover;
+  width: 100%;
+  height: 100%;
+  padding-top: 2px;
+  top:1px;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+h1{
+	text-align: center;
+  color: #DDCD14;
+}
+p{
+	position: relative;
+	text-align: center;
+	color: white;
+	 font-family: "Times New Roman", Times, serif;
+}
+h2{
+	text-align: center;
+}
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid green;
+    padding: 10px;
+}
+table, th, td {
+    border: 1px solid black;
+     margin-left: auto;
+    margin-right: auto;
+    color: #D6ECF2;
+}
